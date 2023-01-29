@@ -3,8 +3,30 @@ body{
 }
 
 
-h1 
+h1,
+h2
 {text-align: center;
 color:rgb(219, 238, 241);
 background-color: rgb(5, 37, 87);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.calign {
+    text-align: center;
+}
+
+p,
+ul,
+ol
+ {
+    font-size: 18px;
+    color: rgb(5, 37, 87);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
